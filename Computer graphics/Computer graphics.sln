@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Computer graphics", "Computer graphics\Computer graphics.vcxproj", "{A4BF6367-0A9B-4C6F-B76B-EF709627A118}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4BF6367-0A9B-4C6F-B76B-EF709627A118}.Debug|ARM.ActiveCfg = Debug|Win32
+		{A4BF6367-0A9B-4C6F-B76B-EF709627A118}.Debug|ARM.Build.0 = Debug|Win32
+		{A4BF6367-0A9B-4C6F-B76B-EF709627A118}.Debug|x64.ActiveCfg = Debug|x64
+		{A4BF6367-0A9B-4C6F-B76B-EF709627A118}.Debug|x64.Build.0 = Debug|x64
+		{A4BF6367-0A9B-4C6F-B76B-EF709627A118}.Debug|x86.ActiveCfg = Debug|Win32
+		{A4BF6367-0A9B-4C6F-B76B-EF709627A118}.Debug|x86.Build.0 = Debug|Win32
+		{A4BF6367-0A9B-4C6F-B76B-EF709627A118}.Release|ARM.ActiveCfg = Release|x64
+		{A4BF6367-0A9B-4C6F-B76B-EF709627A118}.Release|x64.ActiveCfg = Release|x64
+		{A4BF6367-0A9B-4C6F-B76B-EF709627A118}.Release|x64.Build.0 = Release|x64
+		{A4BF6367-0A9B-4C6F-B76B-EF709627A118}.Release|x86.ActiveCfg = Release|Win32
+		{A4BF6367-0A9B-4C6F-B76B-EF709627A118}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25965953-A054-41E2-ACE5-9044170D3726}
+	EndGlobalSection
+EndGlobal

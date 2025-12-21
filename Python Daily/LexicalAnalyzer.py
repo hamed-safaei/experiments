@@ -16,7 +16,7 @@ KEYWORDS = {
     "requires","return","short","signed","sizeof","static","static_assert",
     "static_cast","struct","switch","template","this","thread_local","throw",
     "true","try","typedef","typeid","typename","union","unsigned","using",
-    "virtual","void","volatile","wchar_t","while","xor","xor_eq","std"
+    "virtual","void","volatile","wchar_t","while","xor","xor_eq","std" , "cin" , "count" , "if"
 }
 
 OPERATORS = {
@@ -54,7 +54,7 @@ def is_operator(token):
 
 
 # -------------------------------
-# Main evaluator (FSM)
+# Main evaluator 
 # -------------------------------
 
 def evaluate(c, state, token):
@@ -142,9 +142,7 @@ def evaluate(c, state, token):
     return state, token
 
 
-# -------------------------------
-# Main Program
-# -------------------------------
+#Main
 
 def main():
 
